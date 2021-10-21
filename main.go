@@ -7,11 +7,19 @@ import (
 	"cycloid/wordchains"
 )
 
-func main() {
-	//fmt.Println("Starting Karate chop...")
-	//fmt.Println(karatechop.Chop1(4, 8))
+func main () {
+	
+	fmt.Println("Starting program...")
 
-	fmt.Println("Starting wordchain...")
-	wordchains.Start("hola", "hehe")
+	//startKarateChop()
+	startWordChains()
+}
+
+func startKarateChop () () {
+
+}
+
+func startWordChains () () {
+	wordchains.Start("lead", "gold")
 }
 

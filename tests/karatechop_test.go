@@ -1,9 +1,8 @@
 package tests 
-
+/*
 import (
 	"testing"
 
-	
 	"cycloid/karatechop"
 )
 
@@ -12,7 +11,7 @@ import (
 // en el directorio tests/ => go test -v
 
 
-func TestDerp(t *testing.T) {
+func TestDerp (t *testing.T) {
 
 	//a := Chop1(1, [1, 2, 3,])
 
@@ -21,3 +20,4 @@ func TestDerp(t *testing.T) {
        t.Errorf("Sum was incorrect, got: %d, want: %d.", total, 5)
     } 
 }
+*/
