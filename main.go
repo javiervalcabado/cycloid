@@ -3,23 +3,23 @@ package main
 import (
 	"fmt"
 
-	//"cycloid/karatechop"
+	"cycloid/karatechop"
 	"cycloid/wordchains"
 )
 
-func main () {
-	
+func main() {
+
 	fmt.Println("Starting program...")
 
-	//startKarateChop()
+	startKarateChop()
+	fmt.Println("**********")
 	startWordChains()
 }
 
-func startKarateChop () () {
-
+func startKarateChop() {
+	karatechop.Start()
 }
 
-func startWordChains () () {
+func startWordChains() {
 	wordchains.Start("lead", "gold")
 }
-

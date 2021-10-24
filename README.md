@@ -7,7 +7,18 @@ Cycloid technical tests for backend job offer
 
 * Karate Chop (http://codekata.com/kata/kata02-karate-chop/)
 
+Given a sorted int array and a value, return the position of the value in the array, or -1 if the given value isn't in the array. For this problem we assume a sorted list and a value > 0.
 
+The problem is doing 5 different ways
+- Iterative method
+- Recursive method
+- Slice splitting
+- Method from the standard Go library, with a small fix in the return to fulfill the exercise conditions
+- A mix of recursive and slice splitting
+
+Difficulties:
+	- Finding different approaches for the same problem was more complicated than anticipated
+	- During the creation of the RecursiveAndSliceSplittingChop I encountered the issue of having to split the list , saving the correct positions and values. This led to create custom methods to receive left and right parts of the list and saving the position of the first element RELATIVE TO THE ORIGINAL LIST
 
 -----------------------------------------------
 

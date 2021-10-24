@@ -34,10 +34,8 @@ func Start(word1 string, word2 string) {
 	ReadFile("wordchains/wordlist.txt", length)
 
 	wordchain := FindPath(word1, word2)
-	fmt.Println("**********")
 	fmt.Println("Found shortest path: ")
 	fmt.Println(wordchain)
-	fmt.Println("**********")
 }
 
 func StartVariables () () {
